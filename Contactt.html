@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>
+            Contact us
+        </title>
+        <link rel="stylesheet" href="contactus.css">
+    </head>
+    <style>
+
+    @keyframes bgcolor {
+        0% {
+            background-color: #29974d
+        }
+    
+        30% {
+            background-color: #66bf39
+        }
+    
+        60% {
+            background-color: #eb670f
+        }
+    
+        90% {
+            background-color: rgb(56, 245, 235)
+        }
+    
+        100% {
+            background-color: #864cbf
+        }
+    }
+
+    body{
+        -webkit-animation: bgcolor 20s infinite;
+        animation: bgcolor 10s infinite;
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;
+    }
+    </style>
+    
+     
+    <body>
+        <div class="contact-box">
+            <form>
+                <input type="text" class="input-field" placeholder="Your Name">
+                <input type="email" class="input-field" placeholder="Your Email">
+                <input type="text" class="input-field" placeholder="Subject">
+                <textarea type="text" class="input-field textarea-field" placeholder="Your Message">
+                </textarea>
+                <button type="button" class="btn">Send Message</button>
+            </form>
+        </div> 
+    </body>
+</html>
